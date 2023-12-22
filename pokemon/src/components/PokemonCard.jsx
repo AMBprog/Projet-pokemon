@@ -16,7 +16,7 @@ const PokemonCard = ({ pokemon }) => {
   }
 
   return (
-    <div className="PokemonCard">
+    <div className="PokemonCard button">
       <img src={pokemonDetails.sprites.front_default} alt={pokemonDetails.name} />
       <h3>{pokemonDetails.name}</h3>
       <p>PV: {pokemonDetails.stats.find(stat => stat.stat.name === 'hp').base_stat}</p>

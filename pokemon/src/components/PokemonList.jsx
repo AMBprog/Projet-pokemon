@@ -64,9 +64,12 @@ const PokemonList = () => {
       </select>
 
 
+
+      <div className="grid" >
       {filteredPokemons.map(pokemon => (
         <PokemonCard key={pokemon.name} pokemon={pokemon} />
       ))}
+        </div >
 
     </div>
   );
