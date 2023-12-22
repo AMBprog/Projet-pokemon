@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.PokemonList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.PokemonCard {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.PokemonCard img {
+  width: 100px;
+  height: 100px;
+}
+
+.PokemonCard h3 {
+  margin: 10px 0;
+}
+
+
